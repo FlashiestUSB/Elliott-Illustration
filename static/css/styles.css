@@ -1,0 +1,164 @@
+/* #BFECFF
+#CDC1FF
+#FFF6E3
+#FFCCEA */
+body {
+    background: #FFF6E3;
+}
+.container-header-top {
+    width: 100%;
+    /* background-color: #BFECFF; */
+    background-color: #CDC1FF;
+    /* background-color: #FFF6E3; */
+    /* background-color: #FFCCEA; */
+    /* border: black 2px solid; */
+    max-height: 220px;
+    align-items: center;
+    
+}
+
+.profile-toon-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* border: black 2px solid; */
+}
+
+.profile-toon-image img {
+    /* display: block;
+    margin: auto; */
+    border: #BFECFF 5px solid;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    overflow: hidden;
+    
+    
+}
+.whos-who {
+    vertical-align: middle;
+}
+.whos-who h1{
+    color: #BFECFF;   
+    font-family: "Bubblegum Sans", sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 23px;
+}
+nav ul {
+    float: right;
+    padding-right: 20px;
+    /* padding-top: 20px; */
+}
+nav ul li{
+    list-style: none;
+    font-family: "Bubblegum Sans", sans-serif;
+    font-size: 17px;
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 2px;
+    text-transform: uppercase;
+}
+nav ul li a{
+    color: #FFF6E3;
+    border-radius: 3px;
+    padding: 3px 5px;
+}
+a.active, a:hover {
+    background-color: #b8a6fd;
+    transition: 0.5s;
+}
+.checkbtn{
+    font-size: 25px;
+    color: #FFF6E3;
+    float: right;
+    line-height: 100px;
+    margin-right: 5px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.carousel-caption{
+    color: #b8a6fd;
+}
+.carousel-indicators .active {
+    background-color: #BFECFF;
+}
+.carousel-control-prev-icon {
+    color: #BFECFF;
+}
+.carousel-control-next-icon {
+    color: #BFECFF;
+}
+
+@media (max-width: 992px) {
+    nav ul li a{
+        font-size: 15px;
+    }
+    .whos-who h1 {
+        font-size: 30px;
+    }
+    .profile-toon-image img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 886px) {
+    nav ul li a{
+        font-size: 12px;
+    }
+    .whos-who h1 {
+        font-size: 20px;
+    }
+    .profile-toon-image img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+
+@media (max-width: 784px) {
+    nav ul{
+        padding-right: 10px;
+    }
+    nav ul li a{
+        font-size: 10px;
+    }
+    .whos-who h1 {
+        font-size: 20px;
+    }
+    .profile-toon-image img {
+        width: 80px;
+        height: 80px;
+    }
+}
+@media (max-width: 740px) {
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: relative;
+        width: 100%;
+        left: -680px;
+        text-align: center;
+
+    }
+    nav ul li{
+        display: block;
+        font-size: 30px;
+        line-height: 20px;
+    }
+    body{
+        background-color: #CDC1FF;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+}
