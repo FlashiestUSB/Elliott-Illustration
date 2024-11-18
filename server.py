@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template, url_for, redirect, flash
 from dotenv import load_dotenv
-from flask_bootstrap import Bootstrap5
+# from flask_bootstrap import Bootstrap5
 import os
 load_dotenv()
 
