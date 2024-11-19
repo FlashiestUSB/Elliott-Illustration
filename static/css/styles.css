@@ -8,13 +8,13 @@ body {
 .container-header-top {
     width: 100%;
     /* background-color: #BFECFF; */
-    background-color: #CDC1FF;
+    background-color: #c9bfe1;
     /* background-color: #FFF6E3; */
     /* background-color: #FFCCEA; */
     /* border: black 2px solid; */
-    max-height: 220px;
+    max-height: 270px;
     align-items: center;
-    
+    margin: 0;
 }
 
 .profile-toon-image {
@@ -31,9 +31,9 @@ body {
     /* display: block;
     margin: auto; */
     border: #BFECFF 5px solid;
-    border-radius: 50%;
-    width: 170px;
-    height: 170px;
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
     
     
@@ -41,12 +41,10 @@ body {
 .whos-who {
     vertical-align: middle;
 }
-.whos-who h1{
-    color: #BFECFF;   
-    font-family: "Bubblegum Sans", sans-serif;
-    font-weight: 200;
-    text-align: center;
-    margin-top: 23px;
+.whos-who img{
+    width: 90%;
+    height: 90%;
+    margin-left: 20%;
 }
 nav ul {
     float: right;
@@ -84,7 +82,7 @@ a.active, a:hover {
     display: none;
 }
 .carousel-caption{
-    color: #b8a6fd;
+    color: #50d1a0;
 }
 .carousel-indicators .active {
     background-color: #BFECFF;
@@ -95,7 +93,37 @@ a.active, a:hover {
 .carousel-control-next-icon {
     color: #BFECFF;
 }
+img.cats-prod-img{
+    width: 800px;
+    height: 640px;
+    margin-left: 20%;
+}
+img.cat1_prod_img{
+    width: 800px;
+    height: 640px;
+    object-fit: contain;    
+}
 
+#grad1 {
+    height: 200px;
+    background-color: #BFECFF; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#c9bfe1, #BFECFF);
+  }
+
+h2.cat01{
+    font-family: "Bubblegum Sans", sans-serif;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    color: #50d1a0;
+    font-size: 40px;
+    background-image: linear-gradient(#c9bfe1, #BFECFF);
+    margin-bottom: -2px;
+}
+div.prod-slide-bg{
+    background-image: linear-gradient( #BFECFF,#c9bfe1);
+}
 @media (max-width: 992px) {
     nav ul li a{
         font-size: 15px;
