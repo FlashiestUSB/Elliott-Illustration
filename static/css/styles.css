@@ -124,6 +124,31 @@ h2.cat01{
 div.prod-slide-bg{
     background-image: linear-gradient( #BFECFF,#c9bfe1);
 }
+
+footer.page-footer {
+    background-image: linear-gradient(#c9bfe1,#BFECFF);
+}
+body > footer > div > footer {
+    background-image: linear-gradient(#c9bfe1,#BFECFF);
+}
+body > div.products-category2 > div.products-category3 > footer > div > footer{
+    background-image: linear-gradient(#c9bfe1,#BFECFF);
+    
+}
+div.contact{
+    background-image: linear-gradient(#c9bfe1,#BFECFF,#c9bfe1);
+    padding: 152px;
+    text-align: center;
+    
+}
+div.details {
+    border: #c9bfe1 5px solid;
+    width: fit-content;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+}
+
 @media (max-width: 992px) {
     nav ul li a{
         font-size: 15px;
